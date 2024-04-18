@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="3">
+
+	<test name="Opencart Test">
+
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url"
+			value="https://naveenautomationlabs.com/opencart/index.php?route=account/register"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<classes>
+			<class name="testNGSessions.OpenCartLoginRegister" />
+		</classes>
+	</test>
+
+	<test name="contactus testing">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url"
+			value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+		<parameter name="headless" value="flase"></parameter>
+		<classes>
+			<class name="testNGSessions.OrangehrmTest">
+
+			</class>
+		</classes>
+	</test>
+
+</suite>
