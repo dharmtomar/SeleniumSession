@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class ActionsMoveToElementLavel4 {
-
+//mouse hover using actions class
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 		

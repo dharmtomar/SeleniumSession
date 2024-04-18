@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class ActionsContextClick {
-
+//double click using actions class
 	public static WebDriver driver;
 	public static void main(String[] args) {
 		driver=new ChromeDriver();
